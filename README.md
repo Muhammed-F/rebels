@@ -14,7 +14,7 @@ A modern, dark-themed static e-commerce website built with **pure HTML, CSS, and
 
 ## 📁 Project Structure
 
-```
+\`\`\`
 public/
 ├── index.html          # Main HTML file with all sections
 ├── css/
@@ -23,7 +23,7 @@ public/
 │   └── script.js       # JavaScript for interactivity
 ├── server.py           # Python server script (optional)
 └── README.md           # This file
-```
+\`\`\`
 
 ## 🌐 How to Run the Website
 
@@ -31,13 +31,13 @@ public/
 
 If you have Python installed:
 
-```bash
+\`\`\`bash
 # Navigate to the public folder
 cd public
 
 # Run the Python server
 python3 server.py
-```
+\`\`\`
 
 Then open your browser and go to: `http://localhost:8000`
 
@@ -63,20 +63,20 @@ Upload the entire `public` folder to any static hosting service:
 
 Edit `css/style.css` and modify the CSS variables in the `:root` section:
 
-```css
+\`\`\`css
 :root {
     --primary: hsl(0, 70%, 48%);        /* Red accent color */
     --background: hsl(0, 0%, 8%);       /* Dark background */
     --foreground: hsl(0, 0%, 95%);      /* Text color */
     /* ... more variables ... */
 }
-```
+\`\`\`
 
 ### Adding Products
 
 Edit `js/script.js` and modify the `products` array:
 
-```javascript
+\`\`\`javascript
 const products = [
     {
         id: '1',
@@ -87,7 +87,7 @@ const products = [
     },
     // Add more products...
 ];
-```
+\`\`\`
 
 ### Updating Content
 
